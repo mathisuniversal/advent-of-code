@@ -1,0 +1,12 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "jasmine --config=jasmine.json"
+  },
+  "devDependencies": {
+    "jasmine": "^4.5.0",
+    "watch-http-server": "^0.7.6"
+  }
+}
