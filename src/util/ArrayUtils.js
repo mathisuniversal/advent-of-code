@@ -10,3 +10,7 @@ export function max(array) {
 export function sortDescending(array) {
     return array.sort((a, b) => (Number.parseInt(b) - Number.parseInt(a)));
 }
+
+export function popFront(array) {
+    return array.splice(0, 1);
+}
